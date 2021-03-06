@@ -1,0 +1,4 @@
+#primeiro instala o packager
+npm install electron-packager -g
+#depois executa o comando entrando na pasta do projeto electron, o comando é exatamente como está abaixo
+electron-packager ./ --platform-windows --arch=x64 --out ./ --app-version 1.0.0 --overwrite
